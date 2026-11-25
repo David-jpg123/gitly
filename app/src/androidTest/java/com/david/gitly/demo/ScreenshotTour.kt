@@ -50,7 +50,10 @@ class ScreenshotTour {
             ChatMsg("d4", peer, false, "Told you. Reposting it so the others see it too 🔁", now - 900),
             ChatMsg("d5", peer, true, "Starred ⭐", now - 300, status = MsgStatus.SENT),
         ).forEach { m.store.put(it) }
-        m.store.update { it.copy(readUpTo = it.readUpTo + (peer to now - 900), peerReadUpTo = it.peerReadUpTo + (peer to now)) }
+        // d4 sin leer: sale como notificación (se retira al abrir el chat)
+        m.store.update { it.copy(readUpTo = it.readUpTo + (peer to now - 1000), peerReadUpTo = it.peerReadUpTo + (peer to now)) }
+        inst.uiAutomation.grantRuntimePermission(app.packageName, android.Manifest.permission.POST_NOTIFICATIONS)
+        com.david.gitly.push.Notifications.show(app, login, peer)
 
         inst.context.startActivity(
             android.content.Intent(app, com.david.gitly.MainActivity::class.java).addFlags(android.content.Intent.FLAG_ACTIVITY_NEW_TASK)

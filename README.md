@@ -18,6 +18,13 @@
   <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue">
 </p>
 
+<p align="center">
+  <img src="docs/screenshots/feed.png" width="24%" alt="For you feed">
+  <img src="docs/screenshots/explore.png" width="24%" alt="Explore and hidden gems">
+  <img src="docs/screenshots/repo.png" width="24%" alt="Repository with APK install">
+  <img src="docs/screenshots/chat.png" width="24%" alt="Encrypted chat">
+</p>
+
 ---
 
 GitHub's own *Explore* page has no real recommendation engine. Gitly turns GitHub into the social app it
@@ -54,11 +61,19 @@ build for your device's ABI. Links to `github.com/owner/repo` can be opened dire
   [UnifiedPush](https://unifiedpush.org) (e.g. ntfy) or a 15-minute background check.
 - Read receipts ("Seen"), mute, hide reposts, block (optionally on GitHub too) and report.
 
+<p align="center"><img src="docs/screenshots/notification.png" width="420" alt="Message notification with inline reply"></p>
+<p align="center"><sub>The conversation with @octocat in the screenshots is demo data.</sub></p>
+
 ### 👤 Profiles
 - Avatar, bio, repos / followers / following, Repos · Stars · Reposts tabs and your **Taste** profile.
 - Follow, message and edit your GitHub profile without leaving the app.
 - Settings: multiple accounts, light/dark/system theme, dynamic color, English/Spanish, privacy
   (who can message you, who sees your reposts, read receipts).
+
+<p align="center">
+  <img src="docs/screenshots/login.png" width="24%" alt="Sign in">
+  <img src="docs/screenshots/profile.png" width="24%" alt="Profile">
+</p>
 
 ## How the recommender works
 
