@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gitly</string>
+
+    <!-- Pestañas -->
+    <string name="tab_for_you">Para ti</string>
+    <string name="tab_explore">Explorar</string>
+    <string name="tab_friends">Amigos</string>
+    <string name="tab_profile">Perfil</string>
+
+    <!-- Comunes -->
+    <string name="back">Atrás</string>
+    <string name="cancel">Cancelar</string>
+    <string name="clear">Borrar</string>
+    <string name="refresh">Actualizar</string>
+    <string name="share">Compartir</string>
+    <string name="share_repo">Compartir repo</string>
+    <string name="settings">Ajustes</string>
+    <string name="more_options">Más opciones</string>
+    <string name="open_in_github">Abrir en GitHub</string>
+    <string name="view_details">Ver detalles</string>
+    <string name="and_sep">" y "</string>
+
+    <!-- Feed -->
+    <string name="feed_loading">Buscando repos para ti…</string>
+    <string name="feed_pull">Desliza hacia abajo para cargar recomendaciones.</string>
+    <string name="feed_empty">No hay recomendaciones todavía</string>
+    <string name="action_star">Dar estrella</string>
+    <string name="action_unstar">Quitar estrella</string>
+    <string name="action_send">Enviar</string>
+    <string name="action_repost_soon">Repostear (próximamente)</string>
+    <string name="chip_app">App</string>
+    <string name="not_interested">No me interesa</string>
+    <string name="show_more">Mostrar más</string>
+    <string name="show_less">Mostrar menos</string>
+    <string name="full_readme">Ver README completo</string>
+    <plurals name="n_stars">
+        <item quantity="one">%s estrella</item>
+        <item quantity="other">%s estrellas</item>
+    </plurals>
+
+    <!-- Razones del algoritmo -->
+    <string name="reason_social">Actividad de %1$s</string>
+    <string name="reason_social_more">Actividad de %1$s y %2$d más</string>
+    <string name="reason_interest">Porque te interesa %1$s</string>
+    <string name="reason_costar">Quien marcó %1$s también lo sigue</string>
+    <string name="reason_trending">En tendencia</string>
+    <string name="reason_related">Relacionado con %1$s</string>
+    <string name="reason_popular">Popular en GitHub</string>
+
+    <!-- Explorar -->
+    <string name="search_hint">Buscar repos…</string>
+    <string name="gems_title">Pequeñas joyas</string>
+    <string name="gems_subtitle">Repos poco conocidos que encajan contigo</string>
+    <string name="gems_need_feed">Carga “Para ti” primero para que sepamos qué te gusta.</string>
+    <string name="gems_none">No hemos encontrado joyas esta vez. Prueba a actualizar.</string>
+    <string name="discover_title">Descubrir</string>
+    <string name="preset_trending">Tendencias</string>
+    <string name="preset_android">Apps Android</string>
+
+    <!-- Perfil -->
+    <string name="stat_repos">repos</string>
+    <string name="stat_followers">Seguidores</string>
+    <string name="stat_following">Siguiendo</string>
+    <string name="edit_profile">Editar perfil</string>
+    <string name="share_profile">Compartir perfil</string>
+    <string name="follow_btn">Seguir</string>
+    <string name="following_btn">Siguiendo</string>
+    <string name="tab_repos">Repos</string>
+    <string name="tab_stars">Estrellas</string>
+    <string name="tab_taste">Gustos</string>
+    <string name="no_repos">Todavía no hay repos públicos.</string>
+    <string name="no_stars">Todavía no ha marcado ningún repo.</string>
+    <string name="nobody_here">Aquí no hay nadie todavía.</string>
+    <string name="taste_desc">Lo que el algoritmo ha aprendido de tus estrellas y de lo que abres o descartas. Las estrellas antiguas pesan menos que las recientes.</string>
+    <string name="taste_empty">Aún no hay datos: carga el feed.</string>
+    <string name="taste_language">lenguaje · %1$s</string>
+
+    <!-- Amigos -->
+    <string name="friends_empty">Aquí aparece lo que marcan, crean y publican las personas a las que sigues en GitHub.</string>
+    <string name="act_starred">marcó con estrella</string>
+    <string name="act_forked">hizo fork de</string>
+    <string name="act_published">publicó</string>
+    <string name="act_released">sacó una versión de</string>
+    <string name="act_created">creó</string>
+
+    <!-- Detalle de repo -->
+    <string name="n_forks">%1$s forks</string>
+    <string name="updated_ago">act. %1$s</string>
+    <string name="star_btn">Dar estrella</string>
+    <string name="starred_btn">Con estrella</string>
+    <string name="install_app">Instalar app</string>
+    <string name="version_line">Versión %1$s · %2$s</string>
+    <string name="prerelease">pre-release</string>
+    <string name="apk_meta">%1$s MB · %2$s descargas</string>
+    <string name="install">Instalar</string>
+    <string name="no_apks">Este repo no publica APKs en sus releases.</string>
+
+    <!-- Tiempo -->
+    <string name="time_min">hace %1$d min</string>
+    <string name="time_h">hace %1$d h</string>
+    <string name="time_d">hace %1$d d</string>
+    <string name="time_months">hace %1$d meses</string>
+    <string name="time_years">hace %1$d años</string>
+
+    <!-- Login -->
+    <string name="login_pitch">Descubre repos de GitHub con un feed que aprende de tus estrellas, mira qué hace la gente a la que sigues, comparte repos e instala APKs directamente desde sus releases.</string>
+    <string name="login_token_help">Para entrar necesitas un token personal de GitHub (classic) con los permisos public_repo (dar estrellas) y user:follow (seguir a gente). Se guarda solo en este móvil.</string>
+    <string name="login_create_token">Crear token en GitHub</string>
+    <string name="login_token">Token</string>
+    <string name="login_checking">Comprobando…</string>
+    <string name="login_enter">Entrar</string>
+    <string name="login_invalid_token">Token no válido</string>
+
+    <!-- Ajustes -->
+    <string name="settings_accounts">Cuentas</string>
+    <string name="account_active">Cuenta activa</string>
+    <string name="add_account">Añadir cuenta</string>
+    <string name="settings_appearance">Apariencia</string>
+    <string name="theme">Tema</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="dynamic_color">Color dinámico</string>
+    <string name="dynamic_color_desc">Toma los colores de tu fondo de pantalla (Material You)</string>
+    <string name="dynamic_color_unsupported">Necesita Android 12 o superior</string>
+    <string name="settings_language">Idioma</string>
+    <string name="lang_system">Predeterminado del sistema</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_en">English</string>
+    <string name="settings_privacy">Privacidad</string>
+    <string name="privacy_note">Quién puede escribirte y quién ve tus reposts ya se aplican. Las confirmaciones de lectura llegarán más adelante.</string>
+    <string name="privacy_messages">Quién puede enviarme mensajes</string>
+    <string name="privacy_reposts">Quién ve mis reposts (en el feed y en tu perfil)</string>
+    <string name="privacy_read_receipts">Confirmaciones de lectura</string>
+    <string name="privacy_read_receipts_desc">Ver y dejar ver cuándo se leen los mensajes. Si lo desactivas, tampoco verás los «Visto» de los demás</string>
+    <string name="privacy_activity">Compartir mi actividad</string>
+    <string name="privacy_activity_desc">Tus amigos verán lo que marcas y repostas en Gitly</string>
+    <string name="audience_everyone">Todo el mundo</string>
+    <string name="audience_following">Personas que sigo</string>
+    <string name="audience_nobody">Nadie</string>
+    <string name="audience_only_me">Solo yo</string>
+    <string name="settings_algorithm">Algoritmo</string>
+    <string name="forget_dislikes">Olvidar mis “no me interesa”</string>
+    <string name="dislikes_count">%1$d repos descartados</string>
+    <string name="reset_history">Reiniciar historial</string>
+    <string name="reset_history_desc">Borra lo que has visto, abierto y descartado (tus estrellas se mantienen)</string>
+    <string name="settings_session">Sesión</string>
+    <string name="logout_of">Cerrar sesión de @%1$s</string>
+    <string name="about_line">Gitly %1$s</string>
+    <string name="api_remaining">%1$d llamadas a la API disponibles</string>
+
+    <!-- Mensajes -->
+    <string name="msg_token_expired">El token ha caducado o se ha revocado</string>
+    <string name="msg_star_no_scope">Tu token no tiene permiso para dar estrellas (necesita public_repo)</string>
+    <string name="msg_follow_no_scope">Tu token no tiene permiso para seguir a gente (necesita user:follow)</string>
+    <string name="msg_disliked">Entendido, verás menos cosas así</string>
+    <string name="msg_dislikes_reset">Se han olvidado tus “no me interesa”</string>
+    <string name="msg_history_reset">Historial reiniciado</string>
+    <string name="msg_allow_install">Permite a Gitly instalar apps y vuelve a pulsar Instalar</string>
+    <string name="msg_download_failed">No se pudo descargar: %1$s</string>
+    <!-- v3: login, perfil, feed -->
+    <string name="new_posts">Nuevas recomendaciones</string>
+    <string name="save">Guardar</string>
+    <string name="change_photo">Cambiar foto en GitHub</string>
+    <string name="change_photo_note">GitHub no permite cambiar la foto desde otras apps</string>
+    <string name="field_name">Nombre</string>
+    <string name="field_bio">Bio</string>
+    <string name="field_company">Empresa</string>
+    <string name="field_location">Ubicación</string>
+    <string name="field_website">Web</string>
+    <string name="field_twitter">Usuario de X / Twitter</string>
+    <string name="msg_profile_saved">Perfil actualizado</string>
+    <string name="msg_profile_no_scope">Tu sesión no tiene permiso para editar el perfil. Vuelve a entrar con “Continuar con GitHub”.</string>
+    <string name="login_tagline">Descubre GitHub como si fuera una red social.</string>
+    <string name="login_feature_feed">Un feed que aprende de tus estrellas</string>
+    <string name="login_feature_gems">Pequeñas joyas que no verías en otro sitio</string>
+    <string name="login_feature_apk">Instala apps directamente desde sus releases</string>
+    <string name="login_continue_github">Continuar con GitHub</string>
+    <string name="login_signing_in">Entrando…</string>
+    <string name="login_use_token">Usar un token personal</string>
+    <string name="login_hide_token">Ocultar opción de token</string>
+    <string name="login_token_step1">Crea un token con los permisos ya marcados</string>
+    <string name="login_token_step2">Pégalo aquí</string>
+    <string name="login_step_copy">Tu código (ya está copiado)</string>
+    <string name="login_code_copied">Copiado</string>
+    <string name="login_step_paste">Ábrelo en GitHub, pega el código y autoriza Gitly</string>
+    <string name="login_open_github">Abrir GitHub</string>
+    <string name="login_waiting">Esperando a que autorices… volverás aquí solo</string>
+    <string name="login_denied">Has cancelado la autorización en GitHub</string>
+    <string name="login_expired">El código ha caducado. Vuelve a intentarlo.</string>
+    <string name="login_oauth_missing">No se ha podido iniciar el acceso con GitHub (la app de Gitly no está bien registrada). Usa un token mientras tanto.</string>
+    <!-- Mensajes directos -->
+    <string name="friends_chats">Chats</string>
+    <string name="friends_activity">Actividad</string>
+    <string name="dm_enable_title">Mensajes cifrados</string>
+    <string name="dm_enable_text">Habla con la gente con la que os seguís mutuamente en GitHub. Los mensajes van cifrados de extremo a extremo: ni GitHub ni los servidores pueden leerlos. Al activarlos, Gitly publica en tu cuenta un gist con tu clave pública para que tus amigos puedan escribirte.</string>
+    <string name="dm_enable_btn">Activar mensajes</string>
+    <string name="dm_mutuals">Amigos mutuos</string>
+    <string name="dm_no_mutuals">Cuando tú y otra persona os sigáis en GitHub, aparecerá aquí.</string>
+    <string name="dm_no_chats">Aún no tienes conversaciones. Toca un amigo para empezar.</string>
+    <string name="dm_invite">Invitar</string>
+    <string name="dm_invite_text">Estoy usando Gitly para descubrir repos de GitHub. Actívalo para que podamos escribirnos.</string>
+    <string name="dm_you_prefix">Tú: %1$s</string>
+    <string name="dm_e2e">Cifrado de extremo a extremo</string>
+    <string name="dm_empty_thread">Di hola 👋 o comparte un repo desde tu feed.</string>
+    <string name="dm_input_hint">Mensaje…</string>
+    <string name="dm_send">Enviar</string>
+    <string name="dm_failed">No enviado · Reintentar</string>
+    <string name="dm_not_mutual">Solo puedes escribir a quien os seguís mutuamente en GitHub.</string>
+    <string name="dm_not_gitly">@%1$s aún no ha activado los mensajes de Gitly.</string>
+    <string name="dm_disabled">Activa los mensajes en la pestaña Amigos.</string>
+    <string name="dm_no_gitly_friends">Ninguno de tus amigos mutuos usa Gitly todavía.</string>
+    <string name="send_to_title">Enviar a…</string>
+    <string name="send_more_options">Más opciones</string>
+    <string name="msg_sent_to">Enviado a @%1$s</string>
+    <string name="msg_send_failed">No se pudo enviar el mensaje</string>
+    <string name="msg_gist_no_scope">Para activar los mensajes, Gitly necesita permiso para crear gists. Cierra sesión y vuelve a entrar.</string>
+    <string name="msg_messaging_on">Mensajes activados</string>
+    <string name="settings_messages">Mensajes</string>
+    <string name="dm_off_status">Desactivados · toca para activarlos</string>
+    <string name="dm_key_export">Exportar clave de mensajes</string>
+    <string name="dm_key_export_desc">Para usar tus mensajes en otro móvil. No la compartas con nadie.</string>
+    <string name="dm_key_import">Importar clave</string>
+    <string name="dm_key_import_desc">Pega la clave (nsec) que exportaste en otro móvil</string>
+    <string name="msg_key_copied">Clave copiada. Guárdala en un sitio seguro.</string>
+    <string name="msg_key_imported">Clave importada</string>
+    <string name="msg_key_invalid">Clave no válida</string>
+    <string name="audience_mutuals">Amigos mutuos</string>
+    <!-- Reposts y login web -->
+    <string name="login_with_github">Iniciar sesión con GitHub</string>
+    <string name="login_with_code">Entrar con un código</string>
+    <string name="login_web_state">La respuesta de GitHub no coincide con la petición. Vuelve a intentarlo.</string>
+    <string name="login_web_failed">No se pudo completar el inicio de sesión: %1$s</string>
+    <string name="action_repost">Repostear</string>
+    <string name="action_unrepost">Quitar repost</string>
+    <string name="msg_reposted">Reposteado</string>
+    <string name="msg_unreposted">Repost quitado</string>
+    <string name="msg_repost_needs_messages">Para repostear, activa primero los mensajes en la pestaña Amigos.</string>
+    <string name="reason_repost">%1$s lo ha reposteado</string>
+    <string name="reason_repost_many">%1$s lo han reposteado</string>
+    <string name="reason_repost_more">%1$s y %2$d más lo han reposteado</string>
+    <string name="tab_reposts">Reposts</string>
+    <string name="no_reposts">Aún no has reposteado nada. Usa el botón ⟲ de cualquier post.</string>
+    <string name="audience_public">Todo el mundo (público)</string>
+    <string name="message_btn">Mensaje</string>
+    <string name="reposts_hidden">@%1$s no comparte sus reposts contigo (o no usa Gitly).</string>
+    <string name="reposts_none_other">@%1$s aún no ha reposteado nada que puedas ver.</string>
+    <string name="notif_channel_messages">Mensajes</string>
+    <string name="notif_channel_messages_desc">Mensajes directos de tus amigos</string>
+    <string name="notif_me">Tú</string>
+    <string name="notif_shared_repo">Te ha enviado %1$s</string>
+    <string name="notif_reply">Responder</string>
+    <string name="notif_reply_hint">Escribe un mensaje…</string>
+    <string name="notif_mark_read">Marcar como leído</string>
+    <string name="settings_notifications">Notificaciones</string>
+    <string name="notif_messages">Mensajes nuevos</string>
+    <string name="notif_messages_desc">Avisar aunque Gitly esté cerrada</string>
+    <string name="notif_blocked">Android tiene bloqueadas las notificaciones de Gitly. Toca para permitirlas.</string>
+    <string name="notif_instant">Al instante</string>
+    <string name="notif_instant_on">Activo con %1$s. Tus amigos tocan tu timbre al escribirte.</string>
+    <string name="notif_instant_off">Hay un distribuidor instalado. Toca para activarlo.</string>
+    <string name="notif_instant_none">Sin distribuidor: se comprueba cada 15 minutos. Instala ntfy para recibirlos al momento.</string>
+    <string name="notif_instant_disable">Desactivar entrega al instante</string>
+    <string name="notif_get_ntfy">Conseguir ntfy</string>
+    <string name="close">Cerrar</string>
+    <string name="peer_mute">Silenciar</string>
+    <string name="peer_unmute">Quitar silencio</string>
+    <string name="peer_muted">Silenciado</string>
+    <string name="peer_hide_reposts">Ocultar sus reposts</string>
+    <string name="peer_show_reposts">Ver sus reposts</string>
+    <string name="peer_block">Bloquear</string>
+    <string name="peer_unblock">Desbloquear</string>
+    <string name="peer_report">Denunciar en GitHub</string>
+    <string name="peer_blocked_label">Bloqueado</string>
+    <string name="peer_blocked_banner">Has bloqueado a %1$s. No recibirás sus mensajes ni sus reposts.</string>
+    <string name="block_title">¿Bloquear a %1$s?</string>
+    <string name="block_desc">No podrá escribirte ni despertar tu móvil, y sus reposts desaparecerán de tu feed. No se le avisa.</string>
+    <string name="block_github">Bloquear también en GitHub (dejará de seguirte)</string>
+    <string name="mute_title">Silenciar a %1$s</string>
+    <string name="mute_desc">Sus mensajes seguirán llegando, pero sin notificación ni contador.</string>
+    <string name="mute_1h">1 hora</string>
+    <string name="mute_8h">8 horas</string>
+    <string name="mute_week">1 semana</string>
+    <string name="mute_forever">Hasta que lo vuelva a activar</string>
+    <string name="blocked_users">Usuarios bloqueados</string>
+    <string name="blocked_none">No has bloqueado a nadie.</string>
+    <plurals name="blocked_count">
+        <item quantity="one">%d persona</item>
+        <item quantity="other">%d personas</item>
+    </plurals>
+    <string name="dm_seen">Visto</string>
+    <string name="msg_blocked">Has bloqueado a %1$s</string>
+    <string name="msg_unblocked">Has desbloqueado a %1$s</string>
+    <string name="msg_block_no_scope">Bloqueado en Gitly, pero no en GitHub: la sesión no tiene permiso para bloquear</string>
+    <string name="msg_muted">%1$s silenciado</string>
+    <string name="msg_unmuted">%1$s ya no está silenciado</string>
+    <string name="msg_reposts_muted">Ya no verás los reposts de %1$s</string>
+    <string name="msg_reposts_unmuted">Vuelves a ver los reposts de %1$s</string>
+</resources>
